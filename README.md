@@ -11,47 +11,47 @@ In this assignment, a complete object detection system is implemented from scrat
 
 🗂️ Dataset Description
 
-The dataset consists of annotated images containing multiple object classes
+.The dataset consists of annotated images containing multiple object classes
 
-Each object is labeled with bounding box coordinates and class labels
+.Each object is labeled with bounding box coordinates and class labels
 
-Dataset preprocessing steps include:
+.Dataset preprocessing steps include:
 
-Image resizing to fixed input dimensions
+.Image resizing to fixed input dimensions
 
-Pixel normalization to ensure stable and efficient training
+.Pixel normalization to ensure stable and efficient training
 
-The dataset is split into training and testing sets to evaluate generalization performance
+.The dataset is split into training and testing sets to evaluate generalization performance
 
 🏗️ Model Architecture
 
-A custom object detection architecture is implemented
+.A custom object detection architecture is implemented
 
-The model includes:
+.The model includes:
 
-A feature extraction backbone
+.A feature extraction backbone
 
-A bounding box regression head
+.A bounding box regression head
 
-An object classification head
+.An object classification head
 
-All model weights are initialized randomly
+.All model weights are initialized randomly
 
-No pre-trained weights are used, strictly following assignment requirements
+.No pre-trained weights are used, strictly following assignment requirements
 
-The architecture is designed to balance detection accuracy and computational efficiency
+.The architecture is designed to balance detection accuracy and computational efficiency
 
 🔁 Training Methodology
 
-The model is trained using supervised learning
+.The model is trained using supervised learning
 
-Training is performed over multiple epochs
+.Training is performed over multiple epochs
 
-A combined loss function is used to optimize:
+.A combined loss function is used to optimize:
 
-Object classification accuracy
+.Object classification accuracy
 
-Bounding box localization precision
+.Bounding box localization precision
 
 Epoch-wise training logs are monitored to ensure proper convergence.
 <img width="723" height="477" alt="Screenshot 2026-01-07 063823" src="https://github.com/user-attachments/assets/d56a8887-a97e-46a9-a93b-9806b938c5e0" />
@@ -59,11 +59,11 @@ Epoch-wise training logs are monitored to ensure proper convergence.
 <img width="995" height="687" alt="Screenshot 2026-01-07 064358" src="https://github.com/user-attachments/assets/ed4bfe3f-a278-4490-a112-57c654bd196d" />
 
 
-Data normalization and batching are used to stabilize training
+.Data normalization and batching are used to stabilize training
 
 📊 Evaluation Metrics
 
-The trained model is evaluated using standard object detection metrics:
+.The trained model is evaluated using standard object detection metrics:
 
 mAP (mean Average Precision):
 Measures detection accuracy by comparing predicted bounding boxes with ground-truth annotations across all object classes.
@@ -73,26 +73,25 @@ Measures inference speed and helps evaluate real-time performance capability.
 
 
 
-These metrics together help analyze the trade-off between accuracy and speed, which is critical for real-world deployment.
+.These metrics together help analyze the trade-off between accuracy and speed, which is critical for real-world deployment.
 
 🎞️ Real-Time Inference GIF
 
 The following GIF demonstrates the real-time object detection process, showing bounding boxes and predicted class labels:
 
-<img src="![prediction](https://github.com/user-attachments/assets/75d485f7-f898-41c8-ac4c-7bde5f46fc2d)
-" alt="Inference GIF" width="600"/>
+<img src="https://github.com/user-attachments/assets/75d485f7-f898-41c8-ac4c-7bde5f46fc2d" alt="Inference GIF" width="600"/>
 
 📄 Detailed Report
 
-A comprehensive report is included, covering:
+.A comprehensive report is included, covering:
 
-Dataset preparation and preprocessing
+.Dataset preparation and preprocessing
 
-Model architecture design
+.Model architecture design
 
-Training logs and outputs
+.Training logs and outputs
 
-Evaluation metrics (mAP & FPS) :FPS: 3.142433943618602
+Evaluation metrics (mAP & FPS) :   FPS: 3.142433943618602
 
 
 Inference results with images
