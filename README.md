@@ -78,7 +78,9 @@ These metrics together help analyze the trade-off between accuracy and speed, wh
 🎞️ Real-Time Inference GIF
 
 The following GIF demonstrates the real-time object detection process, showing bounding boxes and predicted class labels:
-![prediction](https://github.com/user-attachments/assets/05840faa-a845-4ab0-91ec-d1500d47db12)
+
+<img src="![prediction](https://github.com/user-attachments/assets/75d485f7-f898-41c8-ac4c-7bde5f46fc2d)
+" alt="Inference GIF" width="600"/>
 
 📄 Detailed Report
 
@@ -90,7 +92,8 @@ Model architecture design
 
 Training logs and outputs
 
-Evaluation metrics (mAP & FPS)
+Evaluation metrics (mAP & FPS) :FPS: 3.142433943618602
+
 
 Inference results with images
 
@@ -99,6 +102,16 @@ Inference results with images
 This assignment demonstrates a complete understanding of object detection by implementing and training a model entirely from scratch.
 The project covers dataset preparation, model architecture, training methodology, evaluation metrics, and inference visualization, fulfilling all assignment requirements.
 
+Model size (MB): 158.44051265716553
+
+custom-object-detection-from-scratch/
+├── README.md
+├── report of assigment 1.pdf
+├── assiment_1.ipynb
+├── media/
+│ ├── inference.gif
+│ ├── result_1.png
+│ ├── result_2.png
 
 
 
